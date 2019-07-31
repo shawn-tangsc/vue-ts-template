@@ -1,0 +1,89 @@
+{
+  "extends": [
+    "tslint:recommended"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**"
+    ]
+  },
+  "rules": {
+    // "typedef": [true, "call-signature","arrow-call-signature"],
+    "quotemark": [
+      true,
+      "single",
+      "jsx-single",
+      "avoid-escape"
+    ],
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "always",
+        "singleline": "never",
+        "esSpecCompliant": true
+      }
+    ],
+    "import-name": false,
+    "no-duplicate-imports": false,
+    "max-line-length": false,
+    "no-var-requires":false,
+    "no-console": false,
+    "no-debugger": false,
+    "max-len": false,
+    "no-empty-interface":false,
+    "no-underscore-dangle": false,
+    "no-plusplus": false,
+    "import/no-extraneous-dependencies": false,
+    "prefer-destructuring": false,
+    "no-param-reassign": false,
+    "global-require": false,
+    "consistent-return": false,
+    "import/first": false,
+    "object-literal-sort-keys": false,
+    "jsdoc-format": false,
+    "prefer-promise-reject-errors": false,
+    "no-lonely-if": false,
+    "radix": false,
+    "no-bitwise": false,
+    "no-mixed-operators": false,
+    "import/no-unresolved": false,
+    "object-curly-newline": false,
+    "no-multiple-empty-lines": false,
+    "no-else-return": false,
+    "guard-for-in": false,
+    "no-restricted-syntax": false,
+    "arrow-parens": false,
+    "linebreak-style": false,
+    "no-unused-vars": false,
+    "no-unused-expressions": false,
+    "no-restricted-globals": false,
+    "no-nested-ternary": false,
+    "no-multi-assign": false,
+    "no-multi-spaces": false,
+    "no-restricted-properties": false,
+    "no-increment-decrement": false,
+    "align": [
+      true,
+      "parameters",
+      "statements"
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case",
+      "allow-leading-underscore"
+    ],
+    "ter-arrow-parens": false,
+    "no-else-after-return": false,
+    "indent": [
+      true,
+      "spaces",
+      2
+    ]
+  }
+}
