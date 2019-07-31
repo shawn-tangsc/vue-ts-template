@@ -33,7 +33,7 @@ import { Dictionary } from 'vuex'
   name: 'LoginForm',
 })
 export default class LoginForm extends Vue {
-  private publicKey = `MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCd6ReqmQazxYY2mTxUGjuA36tT
+  private publicKey = `111MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCd6ReqmQazxYY2mTxUGjuA36tT
 DIlfA6nxjvRAbjn6G11G0sxNU+eEP+tvD9C3fyzl64GSjLrwVU3zYbZoa6sX5fDI
 JVoenC1AzRmUeijcpA9P64ssfacc+AH+rQBS4I6Ppq5TIzTkk03uJAV/1TeFri5S
 ajx9KRRWyRTtabuQkQIDAQAB`
