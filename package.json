@@ -59,7 +59,7 @@
     "swagger-routes-express": "^3.0.2",
     "babel-core": "7.0.0-bridge.0",
     "lint-staged": "^8.1.5",
-    "node-sass": "^4.9.0",
+    "node-sass": "^7.0.0",
     "sass-loader": "^7.1.0",
     "ts-jest": "^23.0.0",
     "ts-node-dev": "^1.0.0-pre.40",
